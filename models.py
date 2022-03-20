@@ -5,4 +5,5 @@ db = client.test
 
 class User():
     def __init__(self, username, password):
-        self.username = db.users.find_one({}, {'_id': 0})
+        self.username = username
+        self.password = password
