@@ -1,0 +1,12 @@
+body {
+    background-size: cover;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+  }
